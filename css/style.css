@@ -78,7 +78,7 @@ section{
 
 /* HERO */
 .hero{
-    display: grid
+    display: grid;
     align-content: center;
     text-align: center;
     background: darkred;
