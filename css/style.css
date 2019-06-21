@@ -2,6 +2,7 @@
 
 *{ box-sizing: border-box; }
 
+
 body{
     font-family: sans-serif;
     margin: 0;
@@ -95,11 +96,13 @@ section{
     font-size: 6em;
     text-transform: uppercase;
     margin: 0 auto;
+    font-family: 'Chewy', cursive;
 }
 
 .hero p{
     max-width: 600px;
     margin: 1em auto;
+    font-family: 'Chewy', cursive;
 }
 
 .page-sub .hero{
@@ -138,6 +141,8 @@ section{
 }
 
 /* BLOG Archives */
+
+
 
 .blog-archives{
     max-width: 600px;
