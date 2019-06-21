@@ -110,13 +110,17 @@ section{
     background-image: url('https://picsum.photos/id/223/1600/800');
     background-position: center;
     background-size: cover;
-    color: lightgray;
+    
 }
 
 .page-blog .hero{
     background-image: url('https://picsum.photos/id/56/1600/800');
     background-position: center top;
     background-size: cover;
+}
+
+.page-about .hero{
+    color: lightslategray;
 }
 
 /* LISTS */
