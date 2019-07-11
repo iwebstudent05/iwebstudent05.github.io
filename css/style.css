@@ -172,3 +172,11 @@ section{
     background-position: center top;
     background-size: cover;
 }
+
+.songs h2{
+    color: white
+}
+.songs img{
+    max-width: 200px;
+    text-align: center;
+}
