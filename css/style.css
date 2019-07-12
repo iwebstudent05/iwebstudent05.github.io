@@ -180,3 +180,11 @@ section{
     max-width: 200px;
     text-align: center;
 }
+
+.games h2{
+    color: white
+}
+.games img{
+    max-width: 200px;
+    text-align: center;
+}
