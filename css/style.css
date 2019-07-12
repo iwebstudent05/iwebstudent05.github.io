@@ -173,18 +173,22 @@ section{
     background-size: cover;
 }
 
+.songs{
+    text-align: center;
+}
 .songs h2{
     color: white
 }
 .songs img{
     max-width: 200px;
-    text-align: center;
 }
 
+.games{
+    text-align: center;
+}
 .games h2{
     color: white
 }
 .games img{
     max-width: 200px;
-    text-align: center;
 }
