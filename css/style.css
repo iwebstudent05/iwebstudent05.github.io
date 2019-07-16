@@ -88,7 +88,7 @@ section{
     align-content: center;
     text-align: center;
     min-height: 50vh;
-    color: whitesmoke;
+    color: black;
 }
 
 
@@ -168,9 +168,27 @@ section{
 }
 
 .page-home .hero {
-    background-image: url('https://picsum.photos/id/221/1600/800/?blur');
-    background-position: center top;
+    text-align: center;
+    background-image: url("../images/fallingwatercopy.jpg");
+    background-position: center bottom;
     background-size: cover;
+    min-height: 1000px;
+}
+
+.pics {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1em;
+    color: white;
+}
+
+@media (max-width:767px){
+    .pics{
+        grid-template-columns: 1fr 1fr;
+    
+    }
 }
 
 .songs{
@@ -191,4 +209,22 @@ section{
 }
 .games img{
     max-width: 200px;
+}
+
+.tv{
+    text-align: center;
+}
+.tv h2{
+    color: white
+}
+.tv img{
+    max-width: 200px;
+}
+
+.filler{
+    text-align: center;
+    color: white;
+}
+.filler img{
+    max-width: 100px;
 }
