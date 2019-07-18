@@ -226,5 +226,17 @@ section{
     color: white;
 }
 .filler img{
-    max-width: 100px;
+   max-width: 300px;
+}
+
+.pics img{
+    max-width: 200px;
+}
+.page-gallery .hero {
+    text-align: center;
+    background-image: url("../../JF/trinity.jpeg");
+    background-position: center bottom;
+    background-size: cover;
+    max-height: 500px;
+    color: green;
 }
